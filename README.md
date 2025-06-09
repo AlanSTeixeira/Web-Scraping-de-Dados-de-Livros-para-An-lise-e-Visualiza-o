@@ -1,4 +1,4 @@
-# Web-Scraping-de-Dados-de-Livros-para-An-lise-e-Visualiza-o
+# Web Scraping de Dados de Livros para Análise e Visualização
 
 Este projeto tem como objetivo principal demonstrar o processo de web scraping para coletar dados de um catálogo online de livros, seguido pela análise exploratória e visualização dessas informações. O trabalho abrange desde a coleta automatizada dos dados até a organização em um formato estruturado, permitindo insights sobre tendências de preços e disponibilidade de estoque no mercado editorial.
 
