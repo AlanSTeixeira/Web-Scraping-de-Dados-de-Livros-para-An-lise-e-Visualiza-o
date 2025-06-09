@@ -20,27 +20,5 @@ pandas: Para manipulação, limpeza e análise dos dados em formato de DataFrame
 matplotlib: Para a criação de gráficos e visualizações.
 seaborn: Para gráficos estatísticos mais atraentes e complexos.
 
-Como Executar o Projeto
-Para replicar este trabalho em sua máquina, siga os passos abaixo:
-
-Clone o Repositório:
-Bash
-
-git clone [LINK_DO_SEU_REPOSITORIO]
-cd [NOME_DA_PASTA_DO_PROJETO]
-Crie e Ative um Ambiente Virtual (Recomendado):
-    python -m venv venv
-# No Windows:
-.\venv\Scripts\activate
-# No macOS/Linux:
-source venv/bin/activate
-3. **Instale as Dependências:**bash
-pip install requests beautifulsoup4 pandas matplotlib seaborn openpyxl
-(`openpyxl` é necessário para o pandas exportar para `.xlsx`). 4. **Execute o Script de Scraping:**bash
-python [nome_do_seu_script.py] # Ex: python raspador_livros.py
-```
-Este script irá raspar os dados e gerar os arquivos livros.xlsx e livros.csv na mesma pasta.
-5.  Explore os Dados: Você pode abrir os arquivos .xlsx e .csv gerados com um software de planilha (como Microsoft Excel, LibreOffice Calc ou Google Sheets) ou continuar a análise em um ambiente Python (Jupyter Notebook, por exemplo).
-
 Contribuição
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias, detetar bugs ou quiser adicionar novas funcionalidades, sinta-se à vontade para abrir uma issue ou enviar um pull request.
